@@ -28,12 +28,20 @@
 }
 
 /* about me container */
+#cat-picture {
+    margin: 2em auto;
+    width: 16em;
+    height: 16em;
+}
+
 img {
+
     padding: 10px;
+
 }
 
 .about-me {
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
     width: 28rem;
 }
