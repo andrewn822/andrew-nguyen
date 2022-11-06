@@ -9,6 +9,17 @@
     margin: auto;
 }
 
+.entire-main-container {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.entire-info-container {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+
 .navbar {
     /* margin: 50px */
     display: flex;
