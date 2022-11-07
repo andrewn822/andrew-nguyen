@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .main-page {
     /* margin: 100px; */
     display: flex;
@@ -10,7 +15,6 @@
 }
 
 .entire-main-container {
-    width: 100%;
     padding: 0 1rem;
 }
 
@@ -178,4 +182,16 @@ img {
     height: 10rem;
 }
 
+}
+
+@media only screen and (max-width: 30rem) {
+    .about-me {
+    width: 100%;
+    }
+}
+
+@media only screen and (max-width: 30rem) {
+    .display-3 {
+    text-align: center;
+    }
 }
