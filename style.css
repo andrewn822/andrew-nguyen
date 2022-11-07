@@ -39,7 +39,7 @@
     margin-left: 50px;
     margin-right: 50px;
     padding: 2px;
-    box-shadow: 5px 5px gray;
+    box-shadow: 0 5px gray;
 }
 
 /* about me container */
@@ -132,7 +132,7 @@ img {
 /* my contact me contiainer */
 .contact-me {
     text-align: center;
-    
+
 }
 
 /* displays */
@@ -194,4 +194,13 @@ img {
     .display-3 {
     text-align: center;
     }
+}
+
+.button:hover {background-color: #9f9f9f}
+
+.button:active {
+  background-color: #9f9f9f;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+  
 }
