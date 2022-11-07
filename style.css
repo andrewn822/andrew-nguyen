@@ -43,17 +43,36 @@
 }
 
 /* about me container */
-#cat-picture {
+
+
+#cat-photo-container {
     margin: 2em auto;
     width: 16em;
     height: 16em;
 }
 
-img {
+.cat-container {
+    background: url(./img/catpic.jpeg) no-repeat;
+    width: 210px;
+    height: 210px;
+    margin: auto;
+}
 
-    padding: 10px;
+.greencat {
+    background-image: url(./img/greencat.jpg);
+}
+
+.purplecat {
+    background-image: url(./img/neonpurple.jpg);
 
 }
+
+.yellowcat {
+    background-image: url(./img/neonyellow.jpg);
+
+
+}
+
 
 .about-me {
     text-align: justify;
@@ -91,7 +110,7 @@ img {
 }
 
 .work-icon {
-    background-image: url(./earthpic.jpeg);
+    background-image: url(./img/earthpic.jpeg);
     background-color: darkgray;
     display: flex;
     align-items: center;
@@ -118,15 +137,6 @@ img {
     font-weight: 700;
     color: white;
     text-decoration: none;
-}
-
-/* my github container */
-.git-hub {
-    text-align: center;
-}
-
-.main-git-hub {
-    margin: auto;
 }
 
 /* my contact me contiainer */
