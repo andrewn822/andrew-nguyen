@@ -167,7 +167,10 @@ input[type=text], select, textarea {
   }
 
 /* footer design */
-
+/* .footer-container {
+    background-color: #666;
+    padding: 80px;
+} */
 
 /* displays */
 
@@ -227,7 +230,9 @@ input[type=text], select, textarea {
 @media only screen and (max-width: 30rem) {
     .display-3 {
     text-align: center;
+    font-size: 48px;
     }
+
 }
 
 .button:hover {background-color: #9f9f9f}
