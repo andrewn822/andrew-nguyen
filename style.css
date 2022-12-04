@@ -52,7 +52,7 @@
 }
 
 .cat-container {
-    background: url(./img/catpic.jpeg) no-repeat;
+    background: url(./img/catpic.jpeg);
     width: 210px;
     height: 210px;
     margin: auto;
@@ -60,17 +60,25 @@
 
 .greencat {
     background-image: url(./img/greencat.jpg);
+    width: 210px;
+    height: 210px;
+    margin: auto;
 }
+
 
 .purplecat {
     background-image: url(./img/neonpurple.jpg);
-
+    width: 210px;
+    height: 210px;
+    margin: auto;
 }
+
 
 .yellowcat {
     background-image: url(./img/neonyellow.jpg);
-
-
+    width: 210px;
+    height: 210px;
+    margin: auto;
 }
 
 
